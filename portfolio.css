@@ -10,8 +10,8 @@ body {
 }
 
 .button {
-  position: relative;
-  border: 5px solid #f00;
+  /* position: relative; */
+  /* border: 5px solid #f00; */
   border-radius: 50%;
 }
 
