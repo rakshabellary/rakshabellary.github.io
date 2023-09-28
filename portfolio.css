@@ -16,8 +16,9 @@ body {
 }
 
 .nav-img {
-  width: "200";
-  height: "90";
+  /* width: "200"; */
+  height: "10";
+  border-radius: 100%;
 }
 
 .circle-img {
@@ -36,7 +37,7 @@ body {
   float: left;
   display: block;
   color: white;
-  text-align: center;
+  text-align: right;
   padding: 15px;
   text-decoration: none;
 }
