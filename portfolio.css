@@ -15,7 +15,12 @@ body {
   border-radius: 50%;
 }
 
-img {
+.nav-img {
+  width: "200";
+  height: "90";
+}
+
+.circle-img {
   border-radius: 50%;
 }
 
