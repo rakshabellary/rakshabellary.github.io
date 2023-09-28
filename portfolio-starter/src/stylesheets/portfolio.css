@@ -2,7 +2,7 @@
   position: relative;
   border: 5px solid #f00;
 }
-.button:before {
+/* .button:before {
     content: " ";
     position: absolute;
     z-index: -1;
@@ -12,4 +12,4 @@
     bottom: 87px;
     border: 56px solid #252523;
     border-radius: 50%;
-}
+} */
