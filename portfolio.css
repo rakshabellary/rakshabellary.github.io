@@ -17,6 +17,7 @@ body {
 
 .nav-img {
   /* width: "200"; */
+  border-radius: 100%;
   width: 10px;
   height: auto;
   margin-right: 10px;
