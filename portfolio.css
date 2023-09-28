@@ -53,8 +53,8 @@ body {
 
 
 .pic {
-  width: 373px;
-  height: 300px;
+  width: 200px;
+  height: auto;
   position: relative;
   display: inline-block;
 }
@@ -69,6 +69,7 @@ body {
   opacity: 0.5;
   z-index: 100;
   display: block;
+  border-radius: 50%;
 }
 
 .pic:hover .info {
