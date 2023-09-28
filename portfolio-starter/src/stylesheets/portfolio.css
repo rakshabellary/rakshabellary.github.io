@@ -1,7 +1,12 @@
+body {
+  color: blue;
+}
+
 .button {
   position: relative;
   border: 5px solid #f00;
 }
+
 /* .button:before {
     content: " ";
     position: absolute;
