@@ -12,6 +12,11 @@ body {
 .button {
   position: relative;
   border: 5px solid #f00;
+  border-radius: 50%;
+}
+
+img {
+  border-radius: 50%;
 }
 
 /* .button:before {
