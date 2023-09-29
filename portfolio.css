@@ -1,6 +1,6 @@
 body {
   color: green;
-  background-color: #1F271B;
+  background-color: black;
 }
 
 .center {
@@ -11,13 +11,12 @@ body {
 }
 
 .button {
-  /* position: relative; */
-  /* border: 5px solid #f00; */
   border-radius: 50%;
 }
 
 .nav-img {
-  /* width: "200"; */
+  -webkit-filter:invert(100%);
+  filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
   border-radius: 100%;
   width: 30px;
   height: auto;
