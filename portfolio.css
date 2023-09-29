@@ -93,6 +93,15 @@ body {
   color: white;
 }
 
+img.darker {
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+}
+
+img.darker:hover {
+  filter: brightness(50%);
+}
+
 /* .button:before {
     content: " ";
     position: absolute;
