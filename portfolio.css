@@ -73,7 +73,7 @@ body {
   border-radius: 50%;
 }
 
-.pic:hover .info {
+/* .pic:hover .info {
   display: block;
 }
 
@@ -90,7 +90,7 @@ body {
   width: 100%;
   text-align: center;
   color: white;
-}
+} */
 
 img.darker {
   transition: all 0.2s ease-in-out;
