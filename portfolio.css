@@ -5,6 +5,10 @@ body {
   font-size: larger;
 }
 
+html {
+  cursor: url("cursor.jpeg"), auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
