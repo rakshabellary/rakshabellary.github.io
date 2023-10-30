@@ -19,7 +19,7 @@ body {
 .nav-img {
   -webkit-filter:invert(100%);
   filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
-  border-radius: 100%;
+  /* border-radius: 100%; */
   width: 30px;
   height: auto;
   /* margin-left: auto; */
