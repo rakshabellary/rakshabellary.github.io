@@ -138,17 +138,17 @@ img.darker:hover {
   width: 500px;
   height: 500px;
   
-  top: 20px;
-  left: 60px;
+  top: 120px;
+  left: 160px;
 }
 
 .box#two {
-  width: 90px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background: blue;
   
-  top: 50px;
-  right: 650px;
+  top: 60px;
+  left: 950px;
 }
 
 .box#three {
@@ -156,7 +156,7 @@ img.darker:hover {
   height: 76px;
   background: purple;
   
-  bottom: 700px;
+  top: 700px;
   left: 878px;
 }
 
