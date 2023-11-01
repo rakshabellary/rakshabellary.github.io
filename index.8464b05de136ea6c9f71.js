@@ -5,5 +5,5 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: $('#second').offset().top
         }, 300);
-    }, 5000);
+    }, 10000);
 });
