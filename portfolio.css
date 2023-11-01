@@ -138,27 +138,27 @@ img.darker:hover {
   width: 500px;
   height: 500px;
   
-  top: 200px;
+  top: 175px;
   left: 200px;
   /* transform: translateY(-50%); */
 }
 
 .box#two {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   background: blue;
   
-  top: 60px;
-  left: 950px;
+  top: 125px;
+  left: 800px;
 }
 
 .box#three {
-  width: 67px;
-  height: 76px;
+  width: 200px;
+  height: 200px;
   background: purple;
   
-  top: 700px;
-  left: 878px;
+  top: 225px;
+  left: 850px;
 }
 
 .box#four {
@@ -166,7 +166,7 @@ img.darker:hover {
   height: 160px;
   background: yellow;
   
-  top: 903px;
+  top: 400px;
   left: 800px;
 }
 
