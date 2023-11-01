@@ -125,20 +125,21 @@ img.darker:hover {
   
   /* Allows positioning relative to this container. */
   position: relative;
+  background: red;
   
   /* For clarity. */
   border: 1px solid black;
 }
 
 .box {
-  position: absolute;
+  position: relative;
 }
 
 .box#one {
   width: 500px;
   height: 500px;
   
-  top: 100px;
+  top: 50%;
   left: 200px;
   /* transform: translateY(-50%); */
 }
