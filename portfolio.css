@@ -17,7 +17,7 @@ html {
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 9s steps(40, end),
-    blink-caret .75s step-end infinite;
+    /* blink-caret .75s step-end infinite; */
 }
 
 .typewriter-delay {
