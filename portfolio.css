@@ -31,7 +31,7 @@ html {
 
 .circle-img {
   border-radius: 50%;
-  width: 500px;
+  width: 450px;
   height: auto;
 }
 
@@ -87,7 +87,7 @@ img.darker:hover {
 
 .box#one {
   width: 500px;
-  height: auto;
+  height: 500px;
   
   top: 20px;
   left: 60px;
@@ -99,7 +99,7 @@ img.darker:hover {
   background: blue;
   
   top: 50px;
-  right: 100px;
+  right: 650px;
 }
 
 .box#three {
@@ -107,8 +107,8 @@ img.darker:hover {
   height: 76px;
   background: purple;
   
-  bottom: 100px;
-  left: 278px;
+  bottom: 700px;
+  left: 878px;
 }
 
 .box#four {
@@ -116,8 +116,8 @@ img.darker:hover {
   height: 160px;
   background: yellow;
   
-  top: 203px;
-  left: 100px;
+  top: 903px;
+  left: 800px;
 }
 
 .box#five {
@@ -125,6 +125,6 @@ img.darker:hover {
   height: 50px;
   background: orange;
   
-  top: 110px;
-  left: 45px;
+  top: 910px;
+  left: 845px;
 }
