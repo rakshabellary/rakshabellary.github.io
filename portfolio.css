@@ -135,11 +135,13 @@ img.darker:hover {
 }
 
 .box#one {
-  width: 500px;
-  height: 500px;
+  width: 100px;
+  height: 100px;
+  background: red;
   
-  top: 120px;
-  left: 160px;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
 }
 
 .box#two {
