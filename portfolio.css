@@ -18,7 +18,7 @@ html {
 
 .typewriter {
   width: 18ch;
-  animation: typing 2s steps(18), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(18, end), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -28,7 +28,7 @@ html {
 
 .typewriter-delay {
   width: 47ch;
-  animation: typing 2s steps(47) 3s, blink .5s step-end infinite alternate;
+  animation: typing 2s steps(47, end) 3s, blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
