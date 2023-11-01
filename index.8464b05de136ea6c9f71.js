@@ -6,7 +6,7 @@ $(document).ready(function () {
       setTimeout(function () {
         $('html, body').animate({
           scrollTop: $('#second').offset().top
-        }, 300);
-      }, 3000);
-    }, 7000);
+        }, 500);
+      }, 5000);
+    }, 3000);
   });
