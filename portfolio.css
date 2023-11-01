@@ -132,14 +132,14 @@ img.darker:hover {
 }
 
 .box {
-  position: relative;
+  position: absolute;
 }
 
 .box#one {
   width: 500px;
   height: 500px;
   
-  top: 50%;
+  top: 200px;
   left: 200px;
   /* transform: translateY(-50%); */
 }
