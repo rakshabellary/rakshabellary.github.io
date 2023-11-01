@@ -40,7 +40,8 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
-  transition: top 0.3s;
+  padding: 15px;
+  /* transition: top 0.3s; */
 }
 
 /* #navbar a {
