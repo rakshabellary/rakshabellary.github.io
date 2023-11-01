@@ -17,7 +17,7 @@ html {
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 9s steps(40, end),
-    blink-caret .75s step-end;
+    blink-caret .75s;
 }
 
 .typewriter-delay {
@@ -26,7 +26,7 @@ html {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 9s steps(40, end) 2s, blink-caret .75s step-end;; /* Add a 2-second delay before the animation starts */
+  animation: typing 9s steps(40, end) 2s, blink-caret .75s;; /* Add a 2-second delay before the animation starts */
 }
 
 /* The typing effect */
