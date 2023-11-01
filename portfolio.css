@@ -69,10 +69,10 @@ img.darker:hover {
 
 .container {
   /* You can set this to whatever you wish. */
-  width: 400px;
+  /* width: 400px; */
   
   /* You'll need to set a height. */
-  height: 400px;
+  /* height: 400px; */
   
   /* Allows positioning relative to this container. */
   position: relative;
@@ -86,9 +86,8 @@ img.darker:hover {
 }
 
 .box#one {
-  width: 90px;
-  height: 60px;
-  background: red;
+  width: 500px;
+  height: auto;
   
   top: 20px;
   left: 60px;
