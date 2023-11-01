@@ -17,18 +17,18 @@ html {
 }
 
 .typewriter {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  width: 18ch;
+  animation: typing 2s steps(18), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 12em;
 }
 
 .typewriter-delay {
-  width: 22ch;
-  animation: typing 2s steps(22) 3s, blink .5s step-end infinite alternate;
+  width: 47ch;
+  animation: typing 2s steps(47) 3s, blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
