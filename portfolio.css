@@ -32,7 +32,7 @@ html {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 2em;
 }
 
