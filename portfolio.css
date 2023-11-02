@@ -183,7 +183,7 @@ img.darker:hover {
   background: orange;
   
   top: 75px;
-  left: 85px;
+  left: 185px;
 }
 
 .box#six {
@@ -198,10 +198,10 @@ img.darker:hover {
 .box#seven {
   width: 100px;
   height: 100px;
-  background: blue;
+  background: yellow;
   
-  top: 90px;
-  left: 845px;
+  top: 20px;
+  left: 925px;
 }
 
 .box#eight {
@@ -228,5 +228,5 @@ img.darker:hover {
   background: salmon;
   
   top: 191px;
-  left: 384px;
+  left: 484px;
 }
