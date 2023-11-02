@@ -243,13 +243,13 @@ img.darker:hover {
 } */
 
 .section-button {
-  width: 22%; /* Each button takes up 23% of the width */
-  height: 600px; /* Each button has a fixed height of 800px */
-  margin: 0 1.2%; /* Add some horizontal spacing between buttons */
+  width: 22%;
+  height: 600px;
+  margin: 0 1.2%;
   display: inline-block;
-  border: 2px solid #fff; /* White outline */
+  border: 2px solid #fff;
   text-align: center;
-  line-height: 800px; /* Center text vertically */
+  line-height: 600px;
   color: #fff;
   background-color: transparent;
   overflow: hidden;
