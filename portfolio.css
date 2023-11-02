@@ -330,3 +330,9 @@ img.darker:hover {
   cursor: pointer;
   z-index: -1; /* Move the background behind the content on hover */
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
