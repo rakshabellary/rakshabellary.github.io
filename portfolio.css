@@ -189,9 +189,9 @@ img.darker:hover {
 .box#six {
   width: 50px;
   height: 50px;
-  background-color: #8338ec;
+  background-color: #fb5607;
   
-  top: 210px;
+  top: 380px;
   left: 845px;
 }
 
@@ -207,19 +207,19 @@ img.darker:hover {
 .box#eight {
   width: 67px;
   height: 67px;
-  background-color: #fb5607;
+  background-color: #3a86ff;
   
   top: 497px;
   left: 45px;
 }
 
 .box#nine {
-  width: 45px;
-  height: 45px;
-  background-color: #3a86ff;
+  width: 85px;
+  height: 85px;
+  background-color: #8338ec;
   
-  top: 500px;
-  left: 985px;
+  top: 420px;
+  left: 1185px;
 }
 
 /* .box#ten {
