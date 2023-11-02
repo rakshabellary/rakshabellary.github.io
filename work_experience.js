@@ -60,6 +60,8 @@ const workExperience = [
   function displayWork(workExp) {
         var contentContainer = document.getElementById("content-container");
         contentContainer.innerHTML = "";
+
+        contentContainer.style.fontFamily = "monospace";
         
         const workName = document.createElement("h1");
         workName.textContent = workExp.name;
