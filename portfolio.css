@@ -245,12 +245,12 @@ img.darker:hover {
 
 .section-button {
   width: 22%;
-  height: 600px;
+  height: 700px;
   margin: 0 1.2%;
   display: inline-block;
   border: 2px solid #fff;
   text-align: center;
-  line-height: 600px;
+  line-height: 700px;
   color: #fff;
   background-color: transparent;
   overflow: hidden;
