@@ -194,7 +194,7 @@ img.darker:hover {
   height: 50px;
   background-color: #fb5607;
   
-  top: 480px;
+  top: 540px;
   left: 845px;
 
   z-index: -1;
@@ -205,7 +205,7 @@ img.darker:hover {
   height: 100px;
   background-color: #ff006e;
   
-  top: 20px;
+  top: 120px;
   left: 925px;
 
   z-index: -1;
@@ -227,7 +227,7 @@ img.darker:hover {
   height: 85px;
   background-color: #8338ec;
   
-  top: 620px;
+  top: 730px;
   left: 1185px;
 
   z-index: -1;
