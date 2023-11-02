@@ -61,7 +61,7 @@ const workExperience = [
         var contentContainer = document.getElementById("content-container");
         contentContainer.innerHTML = "";
         
-        const workName = document.createElement("h3");
+        const workName = document.createElement("h1");
         workName.textContent = workExp.name;
     
         const workRole = document.createElement("h2");
