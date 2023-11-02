@@ -58,7 +58,7 @@ h3.typewriter-delay {
 
 .typewriter-about {
   width: 8ch;
-  animation: typing 3s steps(8, end), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(8, end), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
