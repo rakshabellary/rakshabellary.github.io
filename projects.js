@@ -39,16 +39,16 @@ const csProjects = [
     }
   ];
 
-document.getElementById("cs-button").addEventListener("click", function () {
+  document.getElementById("cs-button").addEventListener("click", function () {
     displayProjects(csProjects);
-});
-
-document.getElementById("quest-button").addEventListener("click", function () {
+  });
+  
+  document.getElementById("quest-button").addEventListener("click", function () {
     displayProjects(questProjects);
-});
-
-function displayProjects(projects) {
-    const contentContainer = document.getElementById("content-container");
+  });
+  
+  function displayProjects(projects) {
+    var contentContainer = document.getElementById("content-container");
     contentContainer.innerHTML = "";
   
     for (let i = 0; i < projects.length; i++) {
@@ -57,12 +57,16 @@ function displayProjects(projects) {
       const projectDiv = document.createElement("div");
       projectDiv.classList.add("project");
   
+      // Apply monospace font
+      projectDiv.style.fontFamily = "monospace";
+  
       // Alternate background color
-      if (i % 2 === 1) {
-        projectDiv.classList.add("slate-gray");
+      if (i % 2 === 0) {
+        projectDiv.style.backgroundColor = "slategray";
+        projectDiv.style.color = "black";
       }
   
-      const projectName = document.createElement("h3");
+      const projectName = document.createElement("h2");
       projectName.textContent = project.name;
   
       const projectDescription = document.createElement("p");
