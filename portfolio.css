@@ -244,7 +244,7 @@ img.darker:hover {
 
 .section-button {
   width: 22%; /* Each button takes up 23% of the width */
-  height: 800px; /* Each button has a fixed height of 800px */
+  height: 600px; /* Each button has a fixed height of 800px */
   margin: 0 1.2%; /* Add some horizontal spacing between buttons */
   display: inline-block;
   border: 2px solid #fff; /* White outline */
