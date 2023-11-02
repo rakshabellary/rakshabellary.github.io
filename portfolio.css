@@ -256,6 +256,7 @@ img.darker:hover {
   position: relative;
   font-family: monospace;
   font-size : 21px;
+  text-decoration: none;
 }
 
 .section-button.yellow:hover {
