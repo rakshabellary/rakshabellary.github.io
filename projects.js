@@ -1,12 +1,12 @@
 const csProjects = [
     {
       name: "Adversarial Questions for AI Tools",
-      description: "Description for Element 1",
+      description: "For this project, my team used adversarial question writing techniques to write 50 adversarial questions that could not be answered by AI Tools such as GPT.",
       skills: ["NLP", "Teamwork", "Critical Thinking", "Research"]
     },
     {
       name: "Predicting Whether or Not a Book Would Be Made into a Movie: A Tutorial",
-      description: "Description for Element 2",
+      description: "In this project, I used Python and the Pandas library to conduct hypothesis testing on whether or not a book would be made into a movie. I used data science techniques to clean, graphically display, and analyze a dataset.",
       skills: ["Data Science", "Python", "Pandas"]
     },
     {
