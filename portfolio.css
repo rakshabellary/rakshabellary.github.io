@@ -180,7 +180,7 @@ img.darker:hover {
 .box#five {
   width: 70px;
   height: 70px;
-  background: #ffbe0b;
+  background-color: #ffbe0b;
   
   top: 75px;
   left: 185px;
@@ -189,7 +189,7 @@ img.darker:hover {
 .box#six {
   width: 50px;
   height: 50px;
-  background: #8338ec;
+  background-color: #8338ec;
   
   top: 210px;
   left: 845px;
@@ -198,7 +198,7 @@ img.darker:hover {
 .box#seven {
   width: 100px;
   height: 100px;
-  background: #ff006e;
+  background-color: #ff006e;
   
   top: 20px;
   left: 925px;
@@ -207,7 +207,7 @@ img.darker:hover {
 .box#eight {
   width: 67px;
   height: 67px;
-  background: #fb5607;
+  background-color: #fb5607;
   
   top: 497px;
   left: 45px;
@@ -216,7 +216,7 @@ img.darker:hover {
 .box#nine {
   width: 45px;
   height: 45px;
-  background: #3a86ff;
+  background-color: #3a86ff;
   
   top: 500px;
   left: 985px;
