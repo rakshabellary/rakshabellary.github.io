@@ -56,6 +56,16 @@ h3.typewriter-delay {
   top: 75%;
 }
 
+.typewriter-about {
+  width: 8ch;
+  animation: typing 3s steps(8, end), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 5em;
+}
+
 .center {
   display: block;
   margin-left: auto;
