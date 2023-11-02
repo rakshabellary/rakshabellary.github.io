@@ -1,10 +1,10 @@
 body {
   color: #c0c5c1;
   background-color: black;
-  font-family: monospace;
+/*   font-family: monospace; */
   /* font-size: larger; */
-  justify-content: space-between;
-  padding: 20px;
+/*   justify-content: space-between; */
+/*   padding: 20px; */
 }
 
 html {
@@ -29,8 +29,8 @@ html {
 }
 
 .typewriter-delay {
-  width: 44ch;
-  animation: typing 4s steps(44, end) 0s, blink .5s step-end infinite alternate;
+  width: 46ch;
+  animation: typing 4s steps(46, end) 0s, blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -194,7 +194,7 @@ img.darker:hover {
   height: 50px;
   background-color: #fb5607;
   
-  top: 540px;
+  top: 480px;
   left: 845px;
 
   z-index: -1;
@@ -205,7 +205,7 @@ img.darker:hover {
   height: 100px;
   background-color: #ff006e;
   
-  top: 120px;
+  top: 20px;
   left: 925px;
 
   z-index: -1;
@@ -227,7 +227,7 @@ img.darker:hover {
   height: 85px;
   background-color: #8338ec;
   
-  top: 730px;
+  top: 620px;
   left: 1185px;
 
   z-index: -1;
@@ -244,7 +244,7 @@ img.darker:hover {
 
 .section-button {
   width: 22%; /* Each button takes up 23% of the width */
-  height: 600px; /* Each button has a fixed height of 800px */
+  height: 800px; /* Each button has a fixed height of 800px */
   margin: 0 1.2%; /* Add some horizontal spacing between buttons */
   display: inline-block;
   border: 2px solid #fff; /* White outline */
@@ -256,7 +256,6 @@ img.darker:hover {
   position: relative;
   font-family: monospace;
   font-size : 21px;
-  text-decoration: none;
 }
 
 .section-button.yellow:hover {
