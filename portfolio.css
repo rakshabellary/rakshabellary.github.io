@@ -3,6 +3,8 @@ body {
   background-color: black;
   /* font-family: Chalkduster, fantasy; */
   /* font-size: larger; */
+  justify-content: space-between;
+  padding: 20px;
 }
 
 html {
@@ -131,7 +133,6 @@ img.darker:hover {
   
   /* Allows positioning relative to this container. */
   position: relative;
-  background: red;
   
   /* For clarity. */
   border: 1px solid black;
@@ -184,6 +185,8 @@ img.darker:hover {
   
   top: 75px;
   left: 185px;
+  
+  z-index: -1;
 }
 
 .box#six {
@@ -193,6 +196,8 @@ img.darker:hover {
   
   top: 380px;
   left: 845px;
+
+  z-index: -1;
 }
 
 .box#seven {
@@ -202,6 +207,8 @@ img.darker:hover {
   
   top: 20px;
   left: 925px;
+
+  z-index: -1;
 }
 
 .box#eight {
@@ -211,6 +218,8 @@ img.darker:hover {
   
   top: 497px;
   left: 45px;
+
+  z-index: -1;
 }
 
 .box#nine {
@@ -220,6 +229,8 @@ img.darker:hover {
   
   top: 420px;
   left: 1185px;
+
+  z-index: -1;
 }
 
 /* .box#ten {
@@ -230,3 +241,51 @@ img.darker:hover {
   top: 191px;
   left: 484px;
 } */
+
+.section-button {
+  width: 22%; /* Each button takes up 23% of the width */
+  height: 800px; /* Each button has a fixed height of 800px */
+  margin: 0 1.2%; /* Add some horizontal spacing between buttons */
+  display: inline-block;
+  border: 2px solid #fff; /* White outline */
+  text-align: center;
+  line-height: 800px; /* Center text vertically */
+  color: #fff;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.yellow::before {
+  background-color: #ffbe0b;
+}
+
+.pink::before {
+  background-color: #ff006e;
+}
+
+.purple::before {
+  background-color: #8338ec;
+}
+
+.blue::before {
+  background-color: #3a86ff;
+}
+
+.section-button::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3498db; /* Color to slide up */
+  transition: top 0.3s;
+  z-index: -1;
+}
+
+.section-button:hover::before {
+  top: 0;
+  cursor: pointer;
+  z-index: -1;
+}
